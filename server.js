@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello World - MOAI ENM - CI/CD - The Diagram - V1 - Feb, 02 2025');
+  res.send('Hello World - MOAI ENM - CI/CD - The Diagram - V2 - Feb, 02 2025');
 });
 
 app.listen(PORT, HOST, () => {
